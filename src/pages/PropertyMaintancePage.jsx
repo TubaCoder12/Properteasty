@@ -1,7 +1,8 @@
 import React from "react";
+import PropertyMaintances from "../component/PropertyMaintances/PropertyMaintances";
 
 const PropertyMaintancePage = () => {
-  return <ButtonHeading />;
+  return <PropertyMaintances />;
 };
 
 export default PropertyMaintancePage;

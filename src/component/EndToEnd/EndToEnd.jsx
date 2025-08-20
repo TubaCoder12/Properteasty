@@ -1,6 +1,6 @@
 import React from "react";
 import CardContent from "../CardContent/CardContent";
-import CardStructure from "../CardContent/CardStructure";
+
 import Lin from "../../assets/Icons/Licensed.svg";
 import location from "../../assets/Icons/Location.svg";
 import award from "../../assets/Icons/Award.svg";
@@ -41,7 +41,6 @@ const EndToEnd = () => {
               key={index}
               className="flex flex-col items-start  bg-[#F6F7F9] px-6 py-8 rounded-[20px] shadow-sm "
             >
-              {/* Icon agar hai to show kare */}
               {item.icon && (
                 <img
                   src={item.icon}
@@ -56,7 +55,6 @@ const EndToEnd = () => {
                 </h4>
               )}
 
-              {/* Description agar hai to show kare */}
               {item.description && (
                 <p className="text-base leading-[24px] tracking-normal  pt-8 font-normal">
                   {item.description}

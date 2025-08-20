@@ -1,6 +1,5 @@
 import React from "react";
 import CardContent from "../CardContent/CardContent";
-import CardStructure from "../CardContent/CardStructure";
 
 // Icons
 import Link from "../../assets/Icons/Link.svg";

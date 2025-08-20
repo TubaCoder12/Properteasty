@@ -1,6 +1,6 @@
 import React from "react";
 import CardContent from "../CardContent/CardContent";
-import CardStructure from "../CardContent/CardStructure";
+
 const PricingSection = () => {
   const Features = [
     {

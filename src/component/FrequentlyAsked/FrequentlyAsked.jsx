@@ -3,7 +3,7 @@ import plus from "../../assets/Icons/Plus.svg";
 import sub from "../../assets/Icons/Substr.svg";
 
 export default function FrequentlyAskedQuestions() {
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState("");
 
   const toggle = (index) => {
     console.log(index);

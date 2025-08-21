@@ -20,30 +20,32 @@ const PricingSection = () => {
         button_Text="Pricing"
         title=" Transparent Pricing & Clear Expectations"
       />
-      <div className="w-full   pb-24">
-        <div
-          className={`max-w-[1800px]  grid grid-cols-1 md:grid-cols-2  md:px-12 px-4
+      <div className="lg:max-w-[1440px] w-full mx-auto">
+        <div className="w-full   pb-24">
+          <div
+            className={`max-w-[1800px]  grid grid-cols-1 md:grid-cols-2  md:px-12 px-4
            gap-3`}
-        >
-          {Features.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-start  bg-[#F6F7F9] px-6 py-8 rounded-[24px] shadow-sm "
-            >
-              {item.title && (
-                <h4 className="text-[40px] leading-[48px] tracking-normal ">
-                  {item.title}
-                </h4>
-              )}
+          >
+            {Features.map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-start  bg-[#F6F7F9] px-6 py-8 rounded-[24px] shadow-sm "
+              >
+                {item.title && (
+                  <h4 className="text-[40px] leading-[48px] tracking-normal ">
+                    {item.title}
+                  </h4>
+                )}
 
-              {/* Description agar hai to show kare */}
-              {item.description && (
-                <p className="text-2xl leading-[36px] tracking-normal  pt-8 font-normal text-[#333333]">
-                  {item.description}
-                </p>
-              )}
-            </div>
-          ))}
+                {/* Description agar hai to show kare */}
+                {item.description && (
+                  <p className="text-2xl leading-[36px] tracking-normal  pt-8 font-normal text-[#333333]">
+                    {item.description}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

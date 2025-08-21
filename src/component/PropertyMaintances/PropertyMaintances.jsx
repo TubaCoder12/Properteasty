@@ -37,35 +37,36 @@ const PropertyMaintances = () => {
         dispatch and real-time progress updates. You stay in control without
         dealing with calls, scheduling, or follow ups."
       />
+      <div className="lg:max-w-[1440px] w-full mx-auto">
+        <div className="w-full pb-24">
+          <div className="max-w-[1800px] w-full px-4 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-3">
+            {Features.map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-start bg-[#F6F7F9] px-6 py-8 rounded-[20px] shadow-sm"
+              >
+                {item.icon && (
+                  <img
+                    src={item.icon}
+                    alt={item.title || "feature icon"}
+                    className="w-12 h-12 "
+                  />
+                )}
 
-      <div className="w-full pb-24">
-        <div className="max-w-[1800px] w-full px-4 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-3">
-          {Features.map((item, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-start bg-[#F6F7F9] px-6 py-8 rounded-[20px] shadow-sm"
-            >
-              {item.icon && (
-                <img
-                  src={item.icon}
-                  alt={item.title || "feature icon"}
-                  className="w-12 h-12 text-green-500"
-                />
-              )}
+                {item.title && (
+                  <h4 className="text-2xl leading-[30px] tracking-normal pt-5">
+                    {item.title}
+                  </h4>
+                )}
 
-              {item.title && (
-                <h4 className="text-2xl leading-[30px] tracking-normal pt-5">
-                  {item.title}
-                </h4>
-              )}
-
-              {item.description && (
-                <p className="text-base leading-[24px] tracking-normal pt-8 font-normal">
-                  {item.description}
-                </p>
-              )}
-            </div>
-          ))}
+                {item.description && (
+                  <p className="text-base leading-[24px] tracking-normal pt-8 font-normal">
+                    {item.description}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

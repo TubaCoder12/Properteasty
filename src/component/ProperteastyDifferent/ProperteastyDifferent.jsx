@@ -1,13 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
 import CardContent from "../CardContent/CardContent";
 import Phone from "../../assets/Icons/Call.svg";
-import visibility from "../../assets/Icons/visibility.svg";
+
 import question from "../../assets/Icons/QuestionMark.svg";
 import Calendar from "../../assets/Icons/Clander.svg";
 import time from "../../assets/Icons/Time.svg";
 import alam from "../../assets/Icons/Alam.svg";
 import map from "../../assets/Icons/Map.svg";
 import tick from "../../assets/Icons/tick.svg";
+import eyeOff from "../../assets/Icons/EyeOff.svg";
 export default function ToggleSwitch() {
   const [active, setActive] = useState("self");
 
@@ -39,7 +40,7 @@ export default function ToggleSwitch() {
       text: "3 - way scheduling nightmares",
     },
     {
-      icon: visibility,
+      icon: eyeOff,
       text: "No visibility into job progress",
     },
   ];

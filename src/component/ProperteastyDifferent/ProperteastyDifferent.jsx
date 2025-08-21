@@ -7,7 +7,7 @@ import Calendar from "../../assets/Icons/Clander.svg";
 import time from "../../assets/Icons/Time.svg";
 import alam from "../../assets/Icons/Alam.svg";
 import map from "../../assets/Icons/Map.svg";
-import tick from "../../assets/Icons/tick.svg";
+import tick from "../../assets/Icons/Ticks.svg";
 import eyeOff from "../../assets/Icons/EyeOff.svg";
 export default function ToggleSwitch() {
   const [active, setActive] = useState("self");

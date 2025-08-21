@@ -29,3 +29,6 @@ body {
   font-weight: 500; /* Default medium weight */
   color: #242424;
 }
+html {
+  scroll-behavior: smooth;
+}

@@ -71,71 +71,73 @@ job will get done.`,
   ];
 
   return (
-    <div className="lg:max-w-[1440px] w-full mx-auto">
-      <section className="flex   w-full mx-auto flex-col gap-4 md:gap-8 lg:gap-[64px] text-white py-8  lg:py-24 md:px-12 px-5">
-        <div className=" grid md:grid-cols-2 lg:gap-16 md:gap-12 gap-8 items-start">
-          <div className="flex flex-col justify-between max-w-[535px] h-full lg:min-h-[400px] sm2:pb-[42px]">
-            <div className="flex flex-col gap-2 md:gap-4 lg:gap-6">
-              <h5 className="bg-[#F8F8F8]  text-[#242424] border border-[#ECECEC] px-3 py-1 rounded-full font-medium w-fit">
-                FAQs
-              </h5>
+    <section id="faqs">
+      <div className="lg:max-w-[1440px] w-full mx-auto">
+        <section className="flex   w-full mx-auto flex-col gap-4 md:gap-8 lg:gap-[64px] text-white py-8  lg:py-24 md:px-12 px-5">
+          <div className=" grid md:grid-cols-2 lg:gap-16 md:gap-12 gap-8 items-start">
+            <div className="flex flex-col justify-between max-w-[535px] h-full lg:min-h-[400px] sm2:pb-[42px]">
+              <div className="flex flex-col gap-2 md:gap-4 lg:gap-6">
+                <h5 className="bg-[#F8F8F8]  text-[#242424] border border-[#ECECEC] px-3 py-1 rounded-full font-medium w-fit">
+                  FAQs
+                </h5>
 
-              <h1 className="font-medium w-full text-[#242424] text-[24px] md:text-[72px] leading-tight sm:leading-tight md:leading-tight lg:leading-[69px] tracking-[0]">
-                Frequently Asked Questions
-              </h1>
+                <h1 className="font-medium w-full text-[#242424] text-[24px] md:text-[72px] leading-tight sm:leading-tight md:leading-tight lg:leading-[69px] tracking-[0]">
+                  Frequently Asked Questions
+                </h1>
 
-              <h2
-                style={{ letterSpacing: "0.025em" }}
-                className="text-[#242424] w-full text-[18px] md:text-[24px] "
+                <h2
+                  style={{ letterSpacing: "0.025em" }}
+                  className="text-[#242424] w-full text-[18px] md:text-[24px] "
+                >
+                  Got questions? We've got answers. Find everything you need to
+                  know about using Properteasy.
+                </h2>
+              </div>
+
+              <a
+                href="#"
+                className="text-[#2c8d48] w-fit border-b-2 border-[#2c8d48] text-[20px] font-semibold "
               >
-                Got questions? We've got answers. Find everything you need to
-                know about using Properteasy.
-              </h2>
+                View all
+              </a>
             </div>
 
-            <a
-              href="#"
-              className="text-[#2c8d48] w-fit border-b-2 border-[#2c8d48] text-[20px] font-semibold "
-            >
-              View all
-            </a>
-          </div>
-
-          {/* Right Column */}
-          <div className="w-full divide-y divide-gray-200 border-[#dadada] border-t border-b">
-            {faqsData.map((faq, index) => (
-              <div key={index} className="py-6">
-                <div
-                  onClick={() => toggle(index)}
-                  className="flex justify-between cursor-pointer"
-                >
-                  <h3
-                    className={` text-[20px] ${
-                      openIndex === index
-                        ? "text-[#242424] font-semibold"
-                        : "text-[#595959]"
-                    }`}
+            {/* Right Column */}
+            <div className="w-full divide-y divide-gray-200 border-[#dadada] border-t border-b">
+              {faqsData.map((faq, index) => (
+                <div key={index} className="py-6">
+                  <div
+                    onClick={() => toggle(index)}
+                    className="flex justify-between cursor-pointer"
                   >
-                    {faq.question}
-                  </h3>
-                  <span>
-                    {openIndex === index ? (
-                      <img src={sub} className="text-red-500"></img>
-                    ) : (
-                      <img src={plus}></img>
-                    )}
-                  </span>
+                    <h3
+                      className={` text-[20px] ${
+                        openIndex === index
+                          ? "text-[#242424] font-semibold"
+                          : "text-[#595959]"
+                      }`}
+                    >
+                      {faq.question}
+                    </h3>
+                    <span>
+                      {openIndex === index ? (
+                        <img src={sub} className="text-red-500"></img>
+                      ) : (
+                        <img src={plus}></img>
+                      )}
+                    </span>
+                  </div>
+                  {openIndex === index && faq.answer && (
+                    <p className="text-[16px] text-[#333333] font-medium mt-4 leading-relaxed">
+                      {faq.answer}
+                    </p>
+                  )}
                 </div>
-                {openIndex === index && faq.answer && (
-                  <p className="text-[16px] text-[#333333] font-medium mt-4 leading-relaxed">
-                    {faq.answer}
-                  </p>
-                )}
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+      </div>
+    </section>
   );
 }

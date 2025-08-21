@@ -38,17 +38,13 @@ const PropertyMaintances = () => {
         dealing with calls, scheduling, or follow ups."
       />
 
-      <div className="w-full  md:px-12  pb-24">
-        <div
-          className={`max-w-[85rem] mx-auto grid grid-cols-1 md:grid-cols-3
-           gap-3`}
-        >
+      <div className="w-full pb-24">
+        <div className="max-w-[1800px] w-full px-4 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-3">
           {Features.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-start  bg-[#F6F7F9] px-6 py-8 rounded-[20px] shadow-sm "
+              className="flex flex-col items-start bg-[#F6F7F9] px-6 py-8 rounded-[20px] shadow-sm"
             >
-              {/* Icon agar hai to show kare */}
               {item.icon && (
                 <img
                   src={item.icon}
@@ -63,9 +59,8 @@ const PropertyMaintances = () => {
                 </h4>
               )}
 
-              {/* Description agar hai to show kare */}
               {item.description && (
-                <p className="text-base leading-[24px] tracking-normal  pt-8 font-normal">
+                <p className="text-base leading-[24px] tracking-normal pt-8 font-normal">
                   {item.description}
                 </p>
               )}

@@ -31,9 +31,9 @@ const EndToEnd = () => {
         title="Service Professionals you can Trust"
         description="We get it, finding a trusted professional is hard. Properteasy removes the guesswork by vetting every service professional before they ever reach your door. "
       />
-      <div className="w-full  md:px-12  pb-24">
+      <div className="w-full    pb-24">
         <div
-          className={`max-w-[85rem] mx-auto grid grid-cols-1 md:grid-cols-4
+          className={` max-w-[1800px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:px-12 px-4
            gap-3`}
         >
           {Features.map((item, index) => (
@@ -63,13 +63,13 @@ const EndToEnd = () => {
             </div>
           ))}
         </div>
-        <p className="py-12 text-[24px]  font-normal leading-9 tracking-normal space-x-[6px]">
+        <p className="  py-12 md:px-12 px-4 text-[24px]  font-normal leading-9 tracking-normal space-x-[6px]">
           Our rigorous evaluation process includes license and insurance
           verification, as well as client reference validation. Only those who
           demonstrate consistent excellence and reliability are given the
           opportunity to serve our landlords and their tenants.
         </p>
-        <p className=" text-[24px]  font-normal leading-9 tracking-normal space-x-[6px]">
+        <p className=" text-[24px] md:px-12 px-4  font-normal leading-9 tracking-normal space-x-[6px]">
           Our screening process is hands on, ensuring only the most dependable,
           skilled, and trustworthy vendors make the cut. Our service providers
           are established local tradesmen with proven track records, the

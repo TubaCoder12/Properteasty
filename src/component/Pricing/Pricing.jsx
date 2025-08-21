@@ -20,9 +20,9 @@ const PricingSection = () => {
         button_Text="Pricing"
         title=" Transparent Pricing & Clear Expectations"
       />
-      <div className="w-full  md:px-12  pb-24">
+      <div className="w-full   pb-24">
         <div
-          className={`max-w-[85rem] mx-auto grid grid-cols-1 md:grid-cols-2
+          className={`max-w-[1800px]  grid grid-cols-1 md:grid-cols-2  md:px-12 px-4
            gap-3`}
         >
           {Features.map((item, index) => (

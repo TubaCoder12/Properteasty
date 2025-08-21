@@ -47,7 +47,6 @@ export default function Navbar() {
           Submit a request
         </Link>
 
-        {/* Hamburger / Close button for mobile and md */}
         <button
           className="md:inline-block lg:hidden"
           onClick={() => setIsOpen(!isOpen)}
@@ -56,8 +55,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile & MD Menu */}
-      {/* Mobile & MD Menu */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-white shadow-md flex flex-col items-center lg:hidden py-4 space-y-4">
           {/* Links: visible on md and below */}

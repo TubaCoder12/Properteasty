@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import CardContent from "../CardContent/CardContent";
 import Phone from "../../assets/Icons/Call.svg";
-import Eyeoff from "../../assets/Icons/visibility.svg";
+import visibility from "../../assets/Icons/visibility.svg";
 import question from "../../assets/Icons/QuestionMark.svg";
 import Calendar from "../../assets/Icons/Clander.svg";
 import time from "../../assets/Icons/Time.svg";
@@ -39,7 +39,7 @@ export default function ToggleSwitch() {
       text: "3 - way scheduling nightmares",
     },
     {
-      icon: Eyeoff,
+      icon: visibility,
       text: "No visibility into job progress",
     },
   ];

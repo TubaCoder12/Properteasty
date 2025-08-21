@@ -119,7 +119,7 @@ export default function ToggleSwitch() {
                 <section className="px-4 md:px-12 py-6">
                   <div className="grid md:grid-cols-2 gap-6 items-stretch">
                     <div className="bg-[#F6F7F9] px-6 pt-[44px] pb-[32px] rounded-[20px] flex flex-col h-full">
-                      <h2 className="text-5xl font-[500] text-center">
+                      <h2 className="md:text-5xl font-[500] text-center text-[36px]">
                         Self Management
                       </h2>
 
@@ -149,7 +149,7 @@ export default function ToggleSwitch() {
                     </div>
 
                     <div className="bg-[#3CAB5C] px-6 pt-[44px] pb-[32px] rounded-[20px] flex flex-col h-full">
-                      <h2 className="text-5xl font-[500] text-center text-white">
+                      <h2 className="md:text-5xl text-[36px] font-[500] text-center text-white">
                         With Properteasy
                       </h2>
                       <div className="py-[90px] flex-1 flex flex-col justify-center gap-4">

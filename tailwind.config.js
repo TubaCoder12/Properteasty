@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        albert: ["Albert Sans", "sans-serif"],
-        neue: ['"Neue Haas Grotesk Display Pro"', "sans-serif"],
+        albert: ["Albert Sans"],
+        neue: ['"Neue Haas Grotesk Display Pro"'],
       },
     },
   },

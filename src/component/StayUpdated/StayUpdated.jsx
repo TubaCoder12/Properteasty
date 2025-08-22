@@ -43,7 +43,7 @@ const StayUpdated = () => {
           </div>
 
           {/* Privacy text */}
-          <p className="text-sm text-gray-300 mt-3 text-center px-2 sm:px-0">
+          <p className="text-sm  mt-3 text-center px-2 sm:px-0 leading-[22px] font-[400]">
             No spam, unsubscribe anytime. We respect your privacy.
           </p>
         </div>

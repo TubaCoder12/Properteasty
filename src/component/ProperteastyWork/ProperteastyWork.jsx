@@ -19,10 +19,10 @@ const RepairProcess = () => {
                     01
                   </h2>
                 </div>
-                <h3 className=" text-[40px] mb-6 relative z-10">
+                <h3 className=" text-[40px] mb-6 relative z-10 leading-[48px]">
                   Tenant submits repair request
                 </h3>
-                <p className="relative z-10 md:text-[17px] sm:text-2xl lg:text-2xl ">
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl font-[400] leading-9 ">
                   Your tenant reports any issue through Propereasy by providing
                   details and images. This gives us everything we need to get
                   started. No landlord action is required.
@@ -35,10 +35,10 @@ const RepairProcess = () => {
                     02
                   </h2>
                 </div>
-                <h3 className="text-[40px] mb-6 relative z-10 leading-tight">
+                <h3 className="text-[40px] mb-6 relative z-10  leading-[48px]">
                   If you feel the work needs to be done, approve it!
                 </h3>
-                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl">
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl font-[400] leading-9">
                   You’re instantly notified of the request and can review the
                   details and estimate at your leisure. If you choose to move
                   forward, simply approve it with one click.
@@ -54,11 +54,11 @@ const RepairProcess = () => {
                     03
                   </h2>
                 </div>
-                <h3 className="text-[40px] mb-6 relative z-10 leading-tight">
+                <h3 className="text-[40px] mb-6 relative z-10  leading-[48px]">
                   We assess the issue and broadcast the job to the most suitable
                   vendors
                 </h3>
-                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl">
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl font-[400] leading-9">
                   Properteasy reviews the request, identifies the issue, and
                   assigns it to the most qualified, local professionals.
                 </p>
@@ -70,11 +70,11 @@ const RepairProcess = () => {
                     04
                   </h2>
                 </div>
-                <h3 className="text-[40px] mb-6 relative z-10 leading-tight">
+                <h3 className="text-[40px] mb-6 relative z-10  leading-[48px]">
                   Once a vendor accepts the job, your tenant schedules the job
                   seamlessly
                 </h3>
-                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl">
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl  font-[400] leading-9 ">
                   A qualified vendor reviews the details and accepts the job.
                   Your tenant schedules a time that works for them through our
                   platform. They can alternatively provide access instructions
@@ -91,10 +91,10 @@ const RepairProcess = () => {
                     05
                   </h2>
                 </div>
-                <h3 className="text-[40px] mb-6 relative z-10 leading-tight">
+                <h3 className="text-[40px] mb-6 relative z-10  leading-[48px]">
                   You're kept in the loop every step of the way
                 </h3>
-                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl">
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl font-[400] leading-9">
                   You receive real-time updates throughout the process so you
                   always know what’s happening with your property, and when. No
                   more wondering or chasing down job status from afar.
@@ -107,13 +107,13 @@ const RepairProcess = () => {
                     06
                   </h2>
                 </div>
-                <h3 className="text-[40px] mb-6 relative z-10 leading-tight">
-                  Tenant submits repair request
+                <h3 className="text-[40px] mb-6 relative z-10  leading-[48px]">
+                  Pay when the work is completed
                 </h3>
-                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl">
-                  Your tenant reports any issue through Propereasy by providing
-                  details and images. This gives us everything we need to get
-                  started. No landlord action is required.
+                <p className="relative z-10 md:text-[17px] text-2xl lg:text-2xl font-[400] leading-[36px]">
+                  Once the maintenance request is resolved, you’ll receive a
+                  final invoice. All payments are made securely and conveniently
+                  through Properteasy.
                 </p>
               </div>
             </div>

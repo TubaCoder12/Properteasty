@@ -55,13 +55,13 @@ const PropertyMaintances = () => {
                   )}
 
                   {item.title && (
-                    <h4 className="text-2xl leading-[30px] tracking-normal pt-5">
+                    <h4 className="text-2xl leading-[30px] tracking-normal pt-5 font-[500]">
                       {item.title}
                     </h4>
                   )}
 
                   {item.description && (
-                    <p className="text-base leading-[24px] tracking-normal pt-8 font-normal">
+                    <p className="text-base leading-[24px] tracking-normal pt-8 font-normal text-[#595959]">
                       {item.description}
                     </p>
                   )}

@@ -77,17 +77,17 @@ job will get done.`,
           <div className=" grid md:grid-cols-2 lg:gap-16 md:gap-12 gap-8 items-start">
             <div className="flex flex-col justify-between max-w-[535px] h-full lg:min-h-[400px] sm2:pb-[42px]">
               <div className="flex flex-col gap-2 md:gap-4 lg:gap-6">
-                <h5 className="bg-[#F8F8F8]  text-[#242424] border border-[#ECECEC] px-3 py-1 rounded-full font-medium w-fit">
+                <h5 className="bg-[#F8F8F8]  text-[#242424] border border-[#ECECEC] px-3 py-1 rounded-full font-medium w-fit text-[14px] leading-[22px]">
                   FAQs
                 </h5>
 
-                <h1 className="font-medium w-full text-[#242424] text-[24px] md:text-[72px] leading-tight sm:leading-tight md:leading-tight lg:leading-[69px] tracking-[0]">
+                <h1 className="font-medium w-full text-[#242424] text-[24px] md:text-[72px] leading-tight sm:leading-tight md:leading-tight lg:leading-[72px] tracking-[0]">
                   Frequently Asked Questions
                 </h1>
 
                 <h2
                   style={{ letterSpacing: "0.025em" }}
-                  className="text-[#242424] w-full text-[18px] md:text-[24px] "
+                  className="text-[#242424] w-full text-[18px] md:text-[24px] font-[400] "
                 >
                   Got questions? We've got answers. Find everything you need to
                   know about using Properteasy.
@@ -96,7 +96,7 @@ job will get done.`,
 
               <a
                 href="#"
-                className="text-[#2c8d48] w-fit border-b-2 border-[#2c8d48] text-[20px] font-semibold "
+                className="text-[#2c8d48] w-fit border-b-2 border-[#2c8d48] text-[20px] font-semibold leading-[28px] "
               >
                 View all
               </a>
@@ -111,7 +111,7 @@ job will get done.`,
                     className="flex justify-between cursor-pointer"
                   >
                     <h3
-                      className={` text-[20px] ${
+                      className={` text-[20px] font-[400] leading-[28px] ${
                         openIndex === index
                           ? "text-[#242424] font-semibold"
                           : "text-[#595959]"
@@ -128,7 +128,7 @@ job will get done.`,
                     </span>
                   </div>
                   {openIndex === index && faq.answer && (
-                    <p className="text-[16px] text-[#333333] font-medium mt-4 leading-relaxed">
+                    <p className="text-[16px] text-[#333333] font-medium mt-4 leading-[24px]">
                       {faq.answer}
                     </p>
                   )}

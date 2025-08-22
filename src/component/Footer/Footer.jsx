@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="flex flex-col lg:flex-row lg:justify-between gap-12 lg:gap-20">
             <div className="flex flex-col w-full lg:w-1/3 text-left lg:text-left mb-8 lg:mb-0">
               <img src={Logo} alt="PropertyEasy Logo" className="  mb-5 w-32" />
-              <p className="text-sm">
+              <p className="text-sm font-[400] leading-[22px]">
                 Connecting property owners with trusted maintenance
                 professionals. Making property upkeep simple, reliable, and
                 affordable.
@@ -51,12 +51,14 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full lg:w-2/3 text-sm text-gray-700">
               {footerLinks.map((col, index) => (
                 <div key={index}>
-                  <h3 className="font-semibold mb-3">{col.title}</h3>
+                  <h3 className="font-semibold mb-3 leading-[22px]">
+                    {col.title}
+                  </h3>
                   <ul className="space-y-2">
                     {col.links.map((link, i) => (
                       <li
                         key={i}
-                        className="hover:text-green-600 transition-colors cursor-pointer"
+                        className=" cursor-pointer text-[14px] font-[400] leading-[22px]"
                       >
                         {link}
                       </li>
@@ -68,7 +70,7 @@ const Footer = () => {
           </div>
 
           {/* Bottom Bar */}
-          <p className="text-left text-xs mt-[64px]">
+          <p className="text-left text-sm mt-[64px] leading-[22px] font-[400]">
             © 2025 PropertyEasy. All rights reserved.
           </p>
         </div>

@@ -91,7 +91,7 @@ export default function ToggleSwitch() {
       transition-all duration-300 ${
         active === "self"
           ? "text-[#242424] md:text-xs text-[10px] leading-[18px] font-semibold"
-          : "text-[#333333] md:text-xs text-[10px] tracking-[3.5%] leading-[16px] font-[400]"
+          : "text-[#333333] md:text-xs text-[10px] tracking-[3.5%] leading-[18px] font-[400]"
       }`}
             >
               Self Management
@@ -103,7 +103,7 @@ export default function ToggleSwitch() {
       transition-all duration-300 ${
         active === "traditional"
           ? "text-[#242424] md:text-xs text-[10px] leading-[18px] font-semibold"
-          : "text-[#333333] md:text-[12px] text-[10px] tracking-[3.5%] leading-[16px] font-[400]"
+          : "text-[#333333] md:text-[12px] text-[10px] tracking-[3.5%] leading-[18px] font-[400]"
       }`}
             >
               Traditional Property Management
@@ -140,7 +140,7 @@ export default function ToggleSwitch() {
                                 className="filter brightness-0 invert-0 transition duration-300 group-hover:invert"
                               />
                             </div>
-                            <p className="text-2xl font-[500] text-[#333333] group-hover:text-white text-left">
+                            <p className="text-2xl font-[500] text-[#333333] group-hover:text-white text-left leading-[30px] group-hover:font-[600]">
                               {item.text}
                             </p>
                           </div>
@@ -172,7 +172,7 @@ group-hover:[filter:invert(57%)_sepia(31%)_saturate(933%)_hue-rotate(85deg)_brig
 transition duration-300"
                               />
                             </div>
-                            <p className="lg:text-2xl text-[18px] font-[500] text-white group-hover:text-[#52C171] text-left">
+                            <p className="lg:text-2xl text-[18px] font-[500] text-white group-hover:text-[#52C171] text-left leading-[30px] group-hover:font-[600]">
                               {item.text}
                             </p>
                           </div>

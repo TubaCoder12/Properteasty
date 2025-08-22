@@ -17,7 +17,7 @@ const HeroSection = () => {
           <h1 className="text-[27px] md:text-6xl lg:text-7xl text-white  leading-[37px] md:leading-[72px] tracking-normal">
             Owning Rental Properties is Not Supposed to be a Full Time Job
           </h1>
-          <p className="mt-4 text-lg md:text-xl lg:text-2xl  font-[400]  text-white">
+          <p className="mt-4 text-lg md:text-xl lg:text-2xl  font-[400]  text-white leading-[26px] md:leading-[36px]">
             Let us handle the repairs so you can focus on profits, not problems
           </p>
           <button className="mt-6 bg-[#3CAB5C] text-white px-4 py-3 rounded-xl font-medium transition text-base md:text-base">
